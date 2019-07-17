@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "All Customers",
+        "parentId": null,
+        "configuration": {
+            "id": 1,
+            "player": {
+                "autoplay": false,
+                "logo": "hapyak.png",
+                "annotations": {
+                    "link": true,
+                    "image": true,
+                    "pop": true,
+                    "widget": false,
+                    "quiz": false
+                }
+            },
+            "domains": [
+                "www.hapyak.com"
+            ]
+        }
+    },
+    {
+        "id": 100,
+        "name": "ACME Holdings",
+        "parentId": 1,
+        "configuration": {
+            "id": 100,
+            "domains": [
+                "www.acme-holdings.com"
+            ],
+            "integrations": [
+                {
+                    "name": "salesforce"
+                }
+            ]
+        }
+    },
+    {
+        "id": 200,
+        "name": "ACME Products US",
+        "parentId": 100,
+        "configuration": {
+            "id": 200,
+            "domains": [
+                "www.acmeproducts.com"
+            ]
+        }
+    },
+    {
+        "id": 201,
+        "name": "ACME Widgets Inc.",
+        "parentId": 200,
+        "configuration": {
+            "id": 201,
+            "player": {
+                "autoplay": true,
+                "annotations": {
+                    "pop": false,
+                    "widget": true,
+                    "quiz": true
+                },
+                "logo": "acme-widgets.png"
+            },
+            "domains": [
+                "www.acmewidgets.com"
+            ],
+            "integrations": false
+        }
+    }
+]
