@@ -32,17 +32,17 @@ This repository contains the nodejs skeleton code for the project as well as the
 
 ## Data Model
 
-* To constrain the scope of this exercise and remove external depenencies all of the input data you need is provided in a JSON file ```data/groups-query-results.json```
+* To constrain the scope of this exercise and remove external dependencies all of the input data you need is provided in a JSON file ```data/groups-query-results.json```
 
-* The service method you need to complete ```getResolvedConfiguration(groupId)``` is in ```configuration-service.js```
+* The service method that you need to complete is ```getResolvedConfiguration(groupId)``` and lives in ```configuration-service.js```
 
-* Customer accounts are modeled in units called groups.   Groups are hierarchical, and are related to other groups through a ```group.parentId``` to ```group.id``` relationship.  A group can have many direct children but only one direct parent.
+* Customer accounts are modeled in units called groups.   Groups are hierarchical, and are related to other groups through a ```group.parentId``` to ```group.id``` relationship.  
 
 * Groups can have their own configuration as well as inherited configuration based on the configuration of their parent, their parent's parent and so on.  
 
-* The process of generating the fully inherited configuration starting from the furthest away ancestor and proceeding all the way down to the specified descendant is referred to as "resolving" the configuration.
+* The process of generating the fully inherited configuration starting from the furthest away ancestor group and proceeding all the way down to the specified descendant group is referred to as "resolving" the configuration.
 
-* Configuration from the lower groups in the hierarchy always overrides that of groups higher up in the hierarchy.
+* Configuration from lower groups in the hierarchy always overrides that of groups higher up in the hierarchy.
 
-* When coding your solution, create a model around the input data so that your method doesn't directly rely on the JSON file.
+* When coding your solution, create a model around the input data so that your method doesn't directly rely on the JSON file.  This will make it easier to integrate your solution into a real application.
 
