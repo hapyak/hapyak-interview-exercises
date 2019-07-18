@@ -10,7 +10,7 @@ Primary goal:
 
 * Implement the ```getResolvedConfiguration``` method of ```ConfigurationService``` so that the existing unit tests pass.
 
-    This method needs to return the configuration data for the specified group.   However, it must merge the configurations of all ancestor group's based on the group hierarchy.  See [Data Model](#Data-Model) below for more details.
+    This method needs to return the configuration data for the specified group.   However, it must merge the configurations of all ancestor groups based on the group hierarchy.  See [Data Model](#Data-Model) below for more details.
 
 Additional goals are:
 
