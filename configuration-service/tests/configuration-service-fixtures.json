@@ -1,21 +1,22 @@
 {
-    "id": 201,
-    "player": {
-        "autoplay": true,
-        "logo": "acme-widgets.png",
-        "annotations": {
-            "link": true,
-            "image": true,
-            "pop": false,
-            "widget": true,
-            "quiz": true
-        }
-    },
-    "domains": [
-        "www.hapyak.com",
-        "www.acme-holdings.com",
-        "www.acmeproducts.com",
-        "www.acmewidgets.com"
-    ],
-    "integrations": false
+    "configuration": {
+        "player": {
+            "autoplay": true,
+            "logo": "acme-widgets.png",
+            "annotations": {
+                "link": true,
+                "image": true,
+                "pop": false,
+                "widget": true,
+                "quiz": true
+            }
+        },
+        "domains": [
+            "www.hapyak.com",
+            "www.acme-holdings.com",
+            "www.acmeproducts.com",
+            "www.acmewidgets.com"
+        ],
+        "integrations": false
+    }
 }

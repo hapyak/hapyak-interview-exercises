@@ -26,9 +26,10 @@ Additional goals are:
 
 This repository contains the nodejs skeleton code for the project as well as the sample input data and test to validate your solution.
 
+* You'll need a recent version of nodejs.   Version 8 and above should be fine.  We use nvm to install and manage multiple versions of nodejs.
 * Install dependencies: ```npm install```
 * Run tests: ```npm run test```
-* To run tests in a watch mode:  ```npm run dev```
+* To run tests automatically as you code: ```npm run dev```
 
 ## Data Model
 
